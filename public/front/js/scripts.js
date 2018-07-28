@@ -22,16 +22,16 @@ function initCitybook() {
             return a;
         }
     });
-    $(".back-to-filters").scrollToFixed({
-        minWidth: 1224,
-        zIndex: 12,
-        marginTop: 130,
-        removeOffsets: true,
-        limit: function () {
-            var a = $(".limit-box").offset().top - $(".back-to-filters").outerHeight(true) - 10;
-            return a;
-        }
-    });
+    // $(".back-to-filters").scrollToFixed({
+    //     minWidth: 1224,
+    //     zIndex: 12,
+    //     marginTop: 130,
+    //     removeOffsets: true,
+    //     limit: function () {
+    //         var a = $(".limit-box").offset().top - $(".back-to-filters").outerHeight(true) - 10;
+    //         return a;
+    //     }
+    // });
     $(".scroll-nav-wrapper").scrollToFixed({
         minWidth: 768,
         zIndex: 12,
@@ -93,7 +93,7 @@ function initCitybook() {
     $('.slideshow-container').slick({
         slidesToShow: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         arrows: false,
         fade: true,
         cssEase: 'ease-in',
@@ -119,8 +119,6 @@ function initCitybook() {
         slidesToShow: 1,
         dots: true,
         arrows: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
     });
     sbp.on("click", function () {
         $(this).closest(".slider-container-wrap").find('.slider-container').slick('slickPrev');
@@ -518,8 +516,8 @@ function initCitybook() {
     $("input.timepicker").timeDropper({
         setCurrentTime: false,
         meridians: true,
-        primaryColor: "#FF6500",
-        borderColor: "#FF6500",
+        primaryColor: "#4DB7FE",
+        borderColor: "#4DB7FE",
         minutesInterval: '15'
     });
     $(".eye").on("click touchstart", function () {

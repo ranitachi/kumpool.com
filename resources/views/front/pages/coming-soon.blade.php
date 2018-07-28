@@ -11,7 +11,7 @@
         <!--=============== css  ===============-->
         @include('front.includes.link')
     </head>
-    <body>
+    <body style="background:#fff !important;">
         <!-- loader-->
         <div class="loader-wrap">
             <div class="pin"></div>
@@ -23,17 +23,17 @@
             <!--wrapper -->
             <div class="fixed-bg">
                 <div class="bg"  data-bg="images/bg/1.jpg"></div>
-                <div class="overlay"></div>
+                <div class="overlay" style="background:#fff !important;"></div>
                 <div class="bubble-bg"></div>
             </div>
             <!-- cs-wrapper -->
             <div class="cs-wrapper fl-wrap">
                 <!-- container  -->
                 <div class="container small-container counter-widget" data-countDate="09/12/2019">
-                    <div class="cs-logo"><img src="{{asset('front/images/logo.png')}}" alt=""></div>
+                    <div class="cs-logo"><img src="{{asset('front/images/logo_kumpool_tr.png')}}" alt="" style="height:130px;"></div>
                     <span class="section-separator"></span>
-                    <h4 class="soon-title" style="font-size:25pt !important;">Kanal Investasi Anda Sedang Kami Persiapkan</h4>
-                    <h3 class="soon-title" style="font-size:50pt !important;">We're Getting <span style="color:#FF6500">Ready !!</span></h3>
+                    <h4 class="soon-title" style="font-size:25pt !important;color:#111">Kanal Investasi Anda Sedang Kami Persiapkan</h4>
+                    <h3 class="soon-title" style="font-size:50pt !important;color:#111">We're Getting <span style="color:#FF6500">Ready !!</span></h3>
                     <!-- countdown -->
                     <i class="fa fa-smile-o" style="font-size:40pt !important;color:#FF6500"></i>
                     <i class="fa fa-smile-o" style="font-size:40pt !important;color:#FF6500"></i>

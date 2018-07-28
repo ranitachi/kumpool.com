@@ -983,11 +983,11 @@ section.color-bg .section-title .breadcrumbs a:before {
 	position: absolute;
 	border-radius: 100%;
 	bottom: 0;
-	background-color: #ccc;
+	background-color: #111;
 	z-index: 1;
 	width:5px !important;
 	height:5px !important;
-	background:#fff;
+	background:#000;
 	opacity:0.3;
 	-webkit-animation: fade 20s infinite;
 }
