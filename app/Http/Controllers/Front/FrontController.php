@@ -31,12 +31,9 @@ class FrontController extends Controller
             ->with('berita', $berita)
             ->with('slider', $slider);
     }
-<<<<<<< HEAD
-=======
 
     public function coming_soon()
     {
         return view('front.pages.coming-soon');
     }
->>>>>>> update
 }
